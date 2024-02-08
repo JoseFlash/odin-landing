@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif; 
+    padding: 8px;
+    margin: 0;
+}
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+  .logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    display: flex;
+  }
+  .right,.right{
+    display: flex;
+    align-items: center;
+  }
+  .hero{
+    background-color: #1F2937;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+  }
