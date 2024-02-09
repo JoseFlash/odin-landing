@@ -55,7 +55,6 @@ ul {
 .boton{
   background: #3882F6;
   color: #E5E7EB;
-  font-family: Roboto, sans-serif;
   font-weight: bolder;
   border: none;
   border-radius: 8px;
@@ -124,4 +123,12 @@ ul {
 .call-button{
   display: flex;
   align-items: center;
+}
+.second-botton{
+  background:#3882F6;
+  border-radius: 8px;
+  padding: 5px 20px;
+  color: #E5E7EB;
+  border: 2px solid #E5E7EB;
+  font-weight: bolder;
 }
