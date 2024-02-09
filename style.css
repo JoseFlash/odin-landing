@@ -59,3 +59,24 @@ ul {
   border-radius: 8px;
   padding: 8px 16px;
 }
+.title{
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  display: flex;
+  justify-content: center;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 52px;
+}
+.random{
+  max-width: 200px;
+}
+.info img {
+  width: 100px;
+  height: 100px;
+}
