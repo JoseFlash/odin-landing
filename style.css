@@ -65,6 +65,7 @@ ul {
   color: #1F2937;
   display: flex;
   justify-content: center;
+  padding: 36px;
 }
 .info {
   display: flex;
@@ -72,6 +73,7 @@ ul {
   align-items: center;
   text-align: center;
   gap: 52px;
+  padding: 36px;
 }
 .random{
   max-width: 200px;
@@ -79,4 +81,22 @@ ul {
 .info img {
   width: 100px;
   height: 100px;
+}
+.quote-container{
+  background-color: #E5E7EB;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+}
+.quote{
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  flex: 1;
+}
+.who-said{
+  font-weight: bold;
+  display: flex;
+  align-self: flex-end;
+  font-size: 18px;
 }
